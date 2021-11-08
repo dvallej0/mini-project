@@ -1,0 +1,111 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 30px 10vw;
+
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/milky-way-over-the-sky-view-from-the-southern-royalty-free-image-1594935629.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+}
+
+#container h1 {
+  margin-top: 0;
+}
+
+.questionWrapper {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.choice-div button {
+  width: 100%;
+  background-color: lightblue;
+  border: 1px solid blue;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.choice-div table {
+  width: 100%;
+}
+
+.action-div {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.action-div button {
+  width: 200px;
+  background-color: #f3f3f3;
+  border: 1px solid rgb(137, 137, 140);
+}
+
+img {
+  width: 450px;
+}
+
+.picture {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.picture img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 0px 0px 50px 4px #add8e6;
+}
+
+button {
+  font-size: x-large;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.selected {
+  background-color: lightslategray !important;
+}
+
+.correct {
+  background-color: lightgreen !important;
+}
+
+.incorrect {
+  background-color: red !important;
+}
+
+#completed {
+  background-color: rgba(255, 255, 255, 0.46);
+  color: #000;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#completed h1 {
+  margin: 0 !important;
+  font-size: 100px;
+}

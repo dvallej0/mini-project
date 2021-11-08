@@ -1,0 +1,68 @@
+<!--Daniel Vallejo-->
+<!--Mini Project 1-->
+<!-- Web Development-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+
+  <link rel="stylesheet" href="Quiz.css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1>Planets Flashcard Quiz</h1>
+    <hr />
+
+    <h2 id="question">Question 1: What is the name of this planet?</h2>
+    <h2 id="score">placeHolderText</h2>
+
+    <div class="questionWrapper">
+      <div class="picture">
+        <img id="picture" src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" />
+      </div>
+
+      <div class="choice-div">
+        <table>
+          <tr>
+            <td>
+              <button type="button" id="choice1">placeHolderText</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="button" id="choice2">placeHolderText</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="button" id="choice3">placeHolderText</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="button" id="choice4">placeHolderText</button>
+            </td>
+          </tr>
+        </table>
+
+        <div class="action-div">
+          <button type="button" id="checkAnswer">Check Answer</button>
+          <button type="button" id="next">Next >></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="completed">
+      <h1>You did it!</h1>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="Quiz.js"></script>
+</body>
+
+</html>
